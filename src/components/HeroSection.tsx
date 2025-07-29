@@ -20,8 +20,15 @@ const HeroSection = () => {
       }}
     >
       <div className="container max-w-4xl">
+        <div className="mb-8">
+          <img 
+            src="/lovable-uploads/b0aebc95-c5f8-42c3-9428-9c22609ad514.png" 
+            alt="DNAgro VetLink" 
+            className="w-[150px] h-auto mx-auto mb-6"
+          />
+        </div>
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-          A saúde do seu rebanho na palma da mão.
+          A saúde do <span className="relative">seu</span> rebanho na palma da mão.
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
           Conectamos criadores de bovinos e equinos a veterinários especialistas 
