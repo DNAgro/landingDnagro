@@ -18,8 +18,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="font-bold text-2xl text-primary">
-            DNAgro VetLink
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/b0aebc95-c5f8-42c3-9428-9c22609ad514.png" 
+              alt="DNAgro VetLink" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
