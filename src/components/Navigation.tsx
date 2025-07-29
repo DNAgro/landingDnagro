@@ -22,7 +22,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/b0aebc95-c5f8-42c3-9428-9c22609ad514.png" 
               alt="DNAgro VetLink" 
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
           </div>
 
