@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-agriculture.jpg";
+import logoDark from "@/assets/logo-dark.png";
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -22,8 +23,8 @@ const HeroSection = () => {
       <div className="container max-w-4xl">
         <div className="mb-8">
           <img 
-            src="/lovable-uploads/b0aebc95-c5f8-42c3-9428-9c22609ad514.png" 
-            alt="DNAgro VetLink" 
+            src={logoDark} 
+            alt="DNAgro VetLink"
             className="w-[150px] h-auto mx-auto mb-6"
           />
         </div>

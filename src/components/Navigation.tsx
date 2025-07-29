@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logoDark from "@/assets/logo-dark.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,8 +21,8 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/b0aebc95-c5f8-42c3-9428-9c22609ad514.png" 
-              alt="DNAgro VetLink" 
+              src={logoDark} 
+              alt="DNAgro VetLink"
               className="h-12 w-auto"
             />
           </div>
