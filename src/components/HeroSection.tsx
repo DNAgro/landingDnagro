@@ -21,7 +21,7 @@ const HeroSection = () => {
     >
       <div className="container max-w-4xl">
         <div className="mb-8">
-          <div className="bg-white rounded-lg p-4 w-fit mx-auto mb-6">
+          <div className="bg-white rounded-lg p-2 w-fit mx-auto mb-6 mt-[30px]">
             <img 
               src="/lovable-uploads/b0aebc95-c5f8-42c3-9428-9c22609ad514.png" 
               alt="DNAgro VetLink" 
