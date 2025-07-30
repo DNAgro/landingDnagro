@@ -25,7 +25,7 @@ const HeroSection = () => {
             <img 
               src="/lovable-uploads/b0aebc95-c5f8-42c3-9428-9c22609ad514.png" 
               alt="DNAgro VetLink" 
-              className="w-[150px] h-auto"
+              className="w-[200px] h-auto"
             />
           </div>
         </div>
