@@ -33,7 +33,7 @@ const HeroSection = () => {
           A saúde do <span className="relative">seu</span> rebanho na palma da mão.
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Conectamos criadores de bovinos e equinos a veterinários especialistas 
+          Conectamos criadores de bovinos e equinos a veterinários especialistas e acadêmicos em veterinária 
           de forma simples e eficiente. Ajude-nos a construir o futuro da gestão agropecuária.
         </p>
         <Button
