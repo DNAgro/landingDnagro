@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { User, FileText, CheckCircle } from "lucide-react";
+import { User, FileText, CheckCircle, GraduationCap } from "lucide-react";
 
 const BenefitsSection = () => {
   const benefits = [
@@ -21,6 +21,16 @@ const BenefitsSection = () => {
         "Agenda organizada e otimizada.",
         "Acesso ao histórico completo do animal antes da consulta.",
         "Ferramenta moderna para gestão de atendimentos."
+      ]
+    },
+    {
+      icon: GraduationCap,
+      title: "Para Acadêmicos em Veterinária",
+      items: [
+        "Acesso a casos reais para estudos e pesquisa.",
+        "Plataforma para acompanhar veterinários experientes.",
+        "Banco de dados de casos clínicos para aprendizado.",
+        "Ferramenta para desenvolver habilidades práticas remotamente."
       ]
     }
   ];
