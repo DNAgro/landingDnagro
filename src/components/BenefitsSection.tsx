@@ -25,7 +25,7 @@ const BenefitsSection = () => {
     },
     {
       icon: FileText,
-      title: "Para o Veterinário",
+      title: "Para os Veterinários Especialistas",
       items: [
         "Expansão da carteira de clientes sem barreiras geográficas.",
         "Agenda organizada e otimizada.",
