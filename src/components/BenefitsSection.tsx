@@ -1,8 +1,18 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { User, FileText, CheckCircle, GraduationCap } from "lucide-react";
+import { User, FileText, CheckCircle, GraduationCap, Heart } from "lucide-react";
 
 const BenefitsSection = () => {
   const benefits = [
+    {
+      icon: Heart,
+      title: "Para o Rebanho",
+      items: [
+        "Cuidados veterinários mais rápidos e eficientes.",
+        "Diagnósticos precisos com histórico médico completo.",
+        "Prevenção proativa de doenças e problemas de saúde.",
+        "Melhor qualidade de vida e bem-estar animal."
+      ]
+    },
     {
       icon: User,
       title: "Para o Criador Rural",
